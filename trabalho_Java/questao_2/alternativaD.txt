@@ -1,0 +1,9 @@
+public class Quadrado {
+    public static void main(String args[]) {
+    double B = 4;
+    double area = Math.pow(B,2.0);
+    System.out.println("A área é "+ String.format("%.2f",area));
+    
+    
+    }
+}

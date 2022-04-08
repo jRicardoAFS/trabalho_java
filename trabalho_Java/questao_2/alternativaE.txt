@@ -1,0 +1,12 @@
+public class Quadrado {
+    public static void main(String args[]) {
+  double A = 3;
+  double B = 6;
+  double area = A*B;
+  System.out.println("A área é " + String.format("%.2f",area));
+
+  
+  
+  
+    }
+}

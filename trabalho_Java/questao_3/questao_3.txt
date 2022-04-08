@@ -1,0 +1,15 @@
+public class Quadrado {
+    public static void main(String args[]) {
+    double a = 3;
+    double b = -15;
+    double c = 12;
+    
+    double delta = Math.pow(b, 2.0) - 4*a*c;
+    double x1 = (-b + Math.sqrt(delta)) / (2.0 * a);
+    System.out.println("Valor de x1: " +x1);
+  
+    double x2 = (-b - Math.sqrt(delta)) / (2.0 * a);
+    System.out.println("Valor de x2: " +x2);
+
+    }
+}

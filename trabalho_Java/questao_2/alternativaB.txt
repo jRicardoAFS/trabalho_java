@@ -1,0 +1,11 @@
+public class Circulo2{
+    public static void main(String args[]) {
+  double pi = 3.14159;
+  double r = 3;
+  double R = Math.pow(r,2.0);
+  double C = pi*R;
+  System.out.println("A área do circulo é " + String.format("%.2f",C));
+  
+  
+    }
+}

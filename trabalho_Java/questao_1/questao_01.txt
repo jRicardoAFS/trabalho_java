@@ -1,0 +1,11 @@
+public class Circulo {
+    public static void main(String args[]) {
+     int r =11;
+     double p = 3.14159;
+double raio = Math.pow(r,2.0);
+double A = p * raio;
+System.out.println("Área é igual a:"+ String.format("%.4f",A));
+
+
+    }
+}

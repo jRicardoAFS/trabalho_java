@@ -1,0 +1,9 @@
+public class triangulo{
+    public static void main(String args[]) {
+  int A = 4;
+  int C = 5;
+  double b = (A*C)/2;
+  System.out.println("A área do triângulo é " + String.format("%.2f",b));
+
+    }
+}

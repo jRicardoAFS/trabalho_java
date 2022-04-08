@@ -1,0 +1,10 @@
+public class Trapezio {
+    public static void main(String args[]) {
+    double meA = 4;
+    double maB = 7;
+    double alC = 5;
+    double area = (maB+meA)*alC;
+    System.out.println("A área é " + String.format("%.2f",area));
+  
+    }
+}
